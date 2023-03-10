@@ -1,0 +1,16 @@
+[package]
+name = "scupper"
+version = "1.0.0"
+authors = ["Chris Ruffalo"]
+edition = "2021"
+
+[[bin]]
+name = "scupper"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+ngrok = { version = "0.10", features = ["axum"] }
+axum = { version = "0.6.10", features = ["headers"] }
+tokio = { version = "1.26.0", features = ["rt", "rt-multi-thread", "fs"] }
+anyhow = "1.0.69"
+tokio-util = { version = "0.7.7", features = ["io"] }

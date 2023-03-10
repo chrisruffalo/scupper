@@ -16,4 +16,4 @@ To quickly and easily send small files, using ngrok, with rust. This is probably
 Serving "/home/user/Downloads/rickroll.gif" on URL: "https://9734-86-19-22-44.ngrok.io"
 ```
 - The file will be accessible to anyone who clicks on the
-- RIP your NGROCK bandwidth
+- RIP your ngrok bandwidth

@@ -5,7 +5,7 @@
 To quickly and easily send small files, using ngrok, with rust. This is probably stupid.
 
 ## Usage
-- Get an account at ngrok ()
+- Get an account at [ngrok](https://ngrok.com/)
 - Set your token to the environment variable NGROK_AUTHTOKEN
 ```bash
 []$ export NGROK_AUTHTOKEN=<redacted>
@@ -13,7 +13,7 @@ To quickly and easily send small files, using ngrok, with rust. This is probably
 - Run with cargo, accepts one argument (a path to a file you want to serve)
 ```bash
 []$ cargo run ~/Downloads/rickroll.gif
-Serving "/home/user/Downloads/rickroll.gif" on URL: "https://9736-86-22-22-44.ngrok.io"
+Serving "/home/user/Downloads/rickroll.gif" on URL: "https://9734-86-19-22-44.ngrok.io"
 ```
 - The file will be accessible to anyone who clicks on the
 - RIP your NGROCK bandwidth
